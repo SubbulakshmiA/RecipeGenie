@@ -18,12 +18,3 @@ internal storage.
 | * Android Studio  | * Kotlin    | * Retrofit |
 | * IntelliJ IDEA   | * SQLite    | * Mockito  |
 | * VS Studio Code  | * XML       | * Postman  |
-
-
-## Contributors
-* Elmer Orellana
-* Krystal Bradley
-* Corey Glaze 
-* Nikki Singh
-* Subbulalakshmi  
-* Sahil Mutreja  
