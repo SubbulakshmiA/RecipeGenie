@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">RECIPE GENIE</string>
+
+    <!--landing page strings-->
+    <string name="title_name_first">Recipe</string>
+    <string name="title_name_second">Genie</string>
+    <string name="welcome_text">Your Recipe Wish List Starts Here</string>
+    <string name="landing_page_btn">Sign In</string>
+    <string name="bottom_text">Don\'t Have Account?</string>
+    <string name="bottom_text_btn">Sign Up</string>
+    <string name="bottom_text_2">Don\'t Want To Sign Up?</string>
+    <string name="bottom_text_btn_2">Guest</string>
+
+    <!--home page strings-->
+    <string name="homepage_subtitle">Categories</string>
+    <string name="homepage_subtitle_2">Favorites</string>
+    <string name="homepage_btn_text">Breakfast</string>
+    <string name="homepage_btn_text_2">Lunch</string>
+    <string name="homepage_btn_text_3">Dinner</string>
+
+    <!--search/favorites page string-->
+    <string name="search_subtitle">Search Recipes</string>
+    <string name="favorites_subtitle">Favorites</string>
+    <string name="query_hint">search here</string>
+
+    <!-- sign in page-->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="helper_text">*Required.</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset</string>
+
+    <!--card strings-->
+    <string name="card_title">Item Name</string>
+    <string name="card_title_2">Add New Recipe</string>
+    <string name="card_title_3">Update Recipe</string>
+
+    <string name="card_subtitle_total">Total Time:</string>
+    <string name="card_subtitle_prep">Prep Time:</string>
+    <string name="card_subtitle_yield">Yield:</string>
+    <string name="card_subtitle_id">I.D.:</string>
+    <string name="card_subtitle_ingredients">Ingredients:</string>
+    <string name="card_subtitle_directions">Directions:</string>
+    <string name="card_placeholder_text">####</string>
+    <string name="card_btn_add">Add</string>
+    <string name="card_btn_clear">Clear</string>
+    <string name="card_btn_delete">Delete</string>
+    <string name="card_btn_update">Update</string>
+    <string name="card_btn_edit">Edit</string>
+    <string name="card_btn_cancel">Cancel</string>
+
+
+    <string name="select_fav">Cick here to view your recipes</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Maecenas
+        condimentum ante ligula. Duis non est orci. Nunc pellentesque erat sed cursus vestibulum.
+        In aliquam accumsan massa non aliquam. Donec nisl arcu, fringilla sit amet pulvinar eu,
+        venenatis at dolor. Etiam feugiat ac nisl vel bibendum. Vestibulum elementum neque eget
+        congue ullamcorper.</string>
+    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet,consectetur adipiscing elit. Maecenas
+        condimentum ante ligula. Duis non est orci. Nunc pellentesque erat sed cursus vestibulum.
+        In aliquam accumsan massa non aliquam.</string>
+    <string name="zero_padding">00</string>
+</resources>

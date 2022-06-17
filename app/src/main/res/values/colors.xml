@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="gold">#ECA000</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="card_view">#E1ECFF</color>
+    <color name="text_color_primary">#000000</color>
+    <color name="text_color_secondary">@color/teal_700</color>
+    <color name="text_color_tertiary">@color/purple_500</color>
+    <color name="heart_color">@color/red</color>
+    <color name="heart_background_color">@color/app_background_color</color>
+    <color name="app_background_color">#F0F3F8</color>
+    <color name="ic_recipe_foreground">@color/teal_700</color>
+    <color name="btn_primary">#fe9900</color>
+    <color name="btn_reset">#015048</color>
+    <color name="btn_cancel">@color/red</color>
+    <color name="background_color">#192648</color>
+    <color name="searchbar_color">#293863</color>
+    <color name="title_color">#fe9900</color>
+    <color name="category_btn">#293863</color>
+    <color name="gradient_color">#3b4a75</color>
+    <color name="query_hint_color">#009688</color>
+    <color name="selector_color">#FF0000</color>
+</resources>

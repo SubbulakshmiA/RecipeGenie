@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.recipegenie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/genie_2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/genie_2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.recipeGenie">
+        <activity
+            android:name=".view.registration.RegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.registration.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.SearchRecipes"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.UpdateRecipe"
+            android:exported="false" />
+        <activity
+            android:name=".view.RecipeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".view.NewRecipeForm"
+            android:exported="false" />
+        <activity
+            android:name=".view.RecipeListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LandingPage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="keyValue"
+            android:value="${KEY}" />
+    </application>
+
+</manifest>

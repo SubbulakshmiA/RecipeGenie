@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "986140521999",
+    "project_id": "recipe-genie",
+    "storage_bucket": "recipe-genie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986140521999:android:03764dac3a8b6a2fcad57a",
+        "android_client_info": {
+          "package_name": "com.example.recipegenie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986140521999-04eq12migiioqj35fra1cmfnuvpd4nk2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKsNJYLCh1N0n95jkBosmw3l74aHoyLi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986140521999-04eq12migiioqj35fra1cmfnuvpd4nk2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

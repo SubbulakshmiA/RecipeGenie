@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context="com.example.recipegenie.view.RecipeDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="@dimen/large_card_radius">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/card_background"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/large_card_margin"
+                            android:text="ID: "
+                            android:textColor="@color/title_color"
+                            android:textSize="@dimen/large_card_id_text" />
+
+                        <TextView
+                            android:id="@+id/id"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="###"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/large_card_id_text" />
+
+                        <ImageView
+                            android:id="@+id/icon_is_fav"
+                            android:layout_width="@dimen/drawable_star_size"
+                            android:layout_height="@dimen/drawable_star_size"
+                            android:layout_gravity="end"
+                            android:src="@drawable/fav_heart_foreground" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/image_recipe_photo"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_recipe_foreground" />
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="323dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/large_card_margin"
+                        android:text="Recipe Title"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/large_card_title_text"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/large_card_margin"
+                            android:layout_marginBottom="@dimen/large_card_margin"
+                            android:text="Yield:"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/title_color"
+                            android:textSize="@dimen/large_card_subtitle_text" />
+
+                        <TextView
+                            android:id="@+id/yields"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/large_card_title_margins"
+                            android:layout_marginBottom="@dimen/large_card_margin"
+                            android:text="# of servings"
+                            android:textAlignment="textStart"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/large_card_subtitle_text" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/large_card_margin"
+                                android:layout_marginBottom="@dimen/large_card_margin"
+                                android:text="Prep time:"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/title_color"
+                                android:textSize="@dimen/large_card_subtitle_text" />
+
+                            <TextView
+                                android:id="@+id/prep_time"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/large_card_title_margins"
+                                android:layout_marginBottom="@dimen/large_card_margin"
+                                android:text="# mins"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/large_card_subtitle_text" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="50dp"
+                                android:layout_marginBottom="@dimen/large_card_margin"
+                                android:text="Total time:"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/title_color"
+                                android:textSize="@dimen/large_card_subtitle_text" />
+
+                            <TextView
+                                android:id="@+id/total_time"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/large_card_title_margins"
+                                android:layout_marginBottom="@dimen/large_card_margin"
+                                android:text="# mins"
+                                android:textAlignment="textStart"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/large_card_subtitle_text" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/large_card_margin"
+                        android:text="Ingredients:"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/title_color"
+                        android:textSize="@dimen/large_card_subtitle_text" />
+
+                    <TextView
+                        android:id="@+id/ingredients"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/large_card_margin"
+                        android:text="1 ingredient "
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/large_card_subtitle_text" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/large_card_margin"
+                        android:layout_marginTop="@dimen/large_card_margin"
+                        android:text="Directions:"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/title_color"
+                        android:textSize="@dimen/large_card_subtitle_text" />
+
+                    <TextView
+                        android:id="@+id/directions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/large_card_margin"
+                        android:layout_marginBottom="@dimen/large_card_margin"
+                        android:text="@string/lorem_ipsum_short"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/large_card_subtitle_text" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btn_delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/btn_cancel"
+            android:gravity="center"
+            android:text="delete"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btn_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/category_btn"
+            android:gravity="center"
+            android:text="edit"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/category_btn"
+            android:gravity="center"
+            android:text="Cancel"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>
